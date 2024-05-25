@@ -1,0 +1,35 @@
+/* Input.css */
+
+.form {
+    display: flex;
+    justify-content: space-between; /* Align input and button at the ends */
+    position: fixed; /* Fix the form at the bottom */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px; /* Add some padding for better spacing */
+    /* Optional: Add a background color */
+/* Optional: Add a shadow at the bottom */
+}
+
+.input {
+    border: 1px solid #2979FF;
+    border-radius: 4px;
+    padding: 10px;
+    flex: 1; /* Take remaining space */
+    margin-right: 10px; /* Add some margin between input and button */
+}
+
+.sendButton {
+    color: #fff;
+    background-color: #2979FF;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sendButton:hover {
+    background-color: #2962ff; /* Darker shade on hover */
+}
